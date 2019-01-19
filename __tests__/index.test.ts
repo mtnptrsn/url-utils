@@ -7,6 +7,7 @@ import isObject from './helpers/isObject'
  * Functions
  */
 import getParams from '../src/getParams'
+import getParam from '../src/getParam'
 import getProtocol from '../src/getProtocol'
 import stringifyParams from '../src/stringifyParams'
 import changeParams from '../src/changeParams'
@@ -20,6 +21,10 @@ it('getParams', () => {
   expect(isObject(params)).toBe(true)
   expect(params.name).toBe('Carl')
   expect(params.age).toBe('25')
+})
+
+it('getParam', () => {
+  expect(getParam('name', 'https://google.com?name=Carl')).toBe('Carl')
 })
 
 it('stringifyParams', () => {
