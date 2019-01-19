@@ -1,0 +1,19 @@
+{
+  "name": "url-utils",
+  "version": "0.0.1",
+  "devDependencies": {
+    "@types/jest": "^23.3.13",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.5",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "prepublish": "tsc"
+  },
+  "main": "dist/index.js"
+}
