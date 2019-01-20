@@ -1,6 +1,8 @@
 {
-  "name": "url-utils",
+  "name": "@mtnptrsn/url-utils",
   "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
   "devDependencies": {
     "@types/jest": "^23.3.13",
     "jest": "^23.6.0",
@@ -15,5 +17,14 @@
     "watch": "tsc --watch",
     "prepublish": "tsc"
   },
-  "main": "dist/index.js"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtnptrsn/url-utils.git"
+  },
+  "author": "mtnptrsn <Mårten Pettersson>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtnptrsn/url-utils/issues"
+  },
+  "homepage": "https://github.com/mtnptrsn/url-utils#readme"
 }
