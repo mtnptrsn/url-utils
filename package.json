@@ -15,7 +15,8 @@
     "test:watch": "jest --watch",
     "build": "tsc",
     "watch": "tsc --watch",
-    "prepublish": "tsc"
+    "prepublish": "yarn clean && tsc",
+    "clean": "rm -rf ./dist"
   },
   "repository": {
     "type": "git",
